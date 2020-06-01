@@ -1,5 +1,7 @@
 ~~~ javascript
 const noop = () => {};
-// or
-const noop = Function.prototype;
+
+// Or
+const noop = Function();
+// calling Function() might be detected as using eval by some security tools
 ~~~

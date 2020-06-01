@@ -1,4 +1,6 @@
 ~~~ javascript
 const containsWhitespace = str => str => /\s/.test(str);
-// containsWhitespace('hello world') === true
+
+// Example
+containsWhitespace('hello world');      // true
 ~~~
