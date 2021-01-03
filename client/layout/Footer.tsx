@@ -36,6 +36,17 @@ const Footer: React.FC<{}> = () => {
                             <li>
                                 <a
                                     className='text-white'
+                                    href="https://checkbrowsers.support"
+                                    rel="noopener noreferrer"
+                                    target="_blank"
+                                    title="Check Browsers Support - a browser extension to check browser compatibility without leaving your tab"
+                                >
+                                    Check Browsers Support
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    className='text-white'
                                     href="https://fakenumbers.io"
                                     rel="noopener noreferrer"
                                     target="_blank"
@@ -87,7 +98,7 @@ const Footer: React.FC<{}> = () => {
                                     target="_blank"
                                     title="1 LOC - favorite JavaScript utilities in single line of code"
                                 >
-                                    1 LOC (3k★)
+                                    1 LOC (3.3k★)
                                 </a>
                             </li>
                             <li>
@@ -98,7 +109,7 @@ const Footer: React.FC<{}> = () => {
                                     target="_blank"
                                     title="CSS Layout - a collection of popular layouts and patterns made with CSS"
                                 >
-                                    CSS Layout (2.4k★)
+                                    CSS Layout (2.7k★)
                                 </a>
                             </li>
                             <li>
@@ -109,7 +120,7 @@ const Footer: React.FC<{}> = () => {
                                     target="_blank"
                                     title="HTML DOM - Common tasks of managing HTML DOM with native API"
                                 >
-                                    HTML DOM (2.9k★)
+                                    HTML DOM (3.1k★)
                                 </a>
                             </li>
                             <li>
@@ -171,7 +182,7 @@ const Footer: React.FC<{}> = () => {
                 </div>
 
                 <div className='text-center py-8' style={{ color: '#C2C2C2' }}>
-                    © 2020 Nguyen Huu Phuoc. All rights reserved
+                    © {new Date().getFullYear()} Nguyen Huu Phuoc. All rights reserved
                 </div>
             </div>
         </div>
